@@ -2,10 +2,9 @@ def map_to_negativize(array)
   new_array = []
   i = 0 
   while i < array.length
-  array[i]*-1
+  array[i]*-1 new_array.push(array[i])
   i += 1
 end
-new_array.push(array)
 end
 
 def map_to_no_change(dune)
