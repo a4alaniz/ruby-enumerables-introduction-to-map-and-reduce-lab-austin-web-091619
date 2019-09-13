@@ -5,7 +5,7 @@ def map_to_negativize(array)
   array[i]*-1
   i += 1
 end
-return new_array.push
+return new_array.push(array[i])
 end
 
 def map_to_no_change(dune)
