@@ -8,7 +8,7 @@ end
 new_array
 end
 
-def map_to_no_change(dune)
+def map_to_no_change(array)
   #dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
   #dune.map{|n| n}
   new_array = []
