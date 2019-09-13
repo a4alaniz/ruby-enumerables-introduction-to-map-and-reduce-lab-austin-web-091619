@@ -19,7 +19,7 @@ def map_to_no_change(dune)
 end
 new_array
 end
-end  
+
 
 def map_to_double(array)
   array = [1, 2, 3, -9]
