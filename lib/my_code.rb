@@ -10,7 +10,15 @@ end
 
 def map_to_no_change(dune)
   #dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
-  dune.map{|n| n}
+  #dune.map{|n| n}
+  new_array = []
+  i = 0 
+  while i < array.length
+  new_array.push(array[i])
+  i += 1
+end
+new_array
+end
 end  
 
 def map_to_double(array)
