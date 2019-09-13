@@ -44,8 +44,9 @@ new_array
 end  
   
 def reduce_to_total(source_array, starting_point=0)
-  source_array = [1,2,3]
-  source_array.reduce{|source_array| sum += source_array}
+  # source_array = [1,2,3]
+  # source_array.reduce{|source_array| sum += source_array}
+  
 end  
   
 def reduce_to_total(source_array, starting_point)
