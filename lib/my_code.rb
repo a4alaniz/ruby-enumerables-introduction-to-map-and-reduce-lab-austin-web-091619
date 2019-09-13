@@ -55,10 +55,10 @@ def reduce_to_total(source_array, starting_point=0)
 total
 end  
   
-def reduce_to_total(source_array, starting_point)
-  source_array = [1,2,3]
-  source_array.reduce(100) {|sum, starting_point| sum + starting_point}
-end
+# def reduce_to_total(source_array, starting_point)
+#   source_array = [1,2,3]
+#   source_array.reduce(100) {|sum, starting_point| sum + starting_point}
+# end
   
 def reduce_to_all_true(source_array) 
   source_array.reduce { |beTru, beFalse| beTru && beFalse}
