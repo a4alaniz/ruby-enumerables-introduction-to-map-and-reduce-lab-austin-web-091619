@@ -49,7 +49,7 @@ def reduce_to_total(source_array, starting_point=0)
   total = starting_point
   i = 0 
   while i < array.length
-  new_array.push(array[i]**2)
+  .push(array[i]**2)
   i += 1
 end
 new_array
