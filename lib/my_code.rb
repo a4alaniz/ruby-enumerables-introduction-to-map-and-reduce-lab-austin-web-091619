@@ -24,6 +24,13 @@ end
 def map_to_double(array)
   # array = [1, 2, 3, -9]
   # array.map{|n| n * 2}
+  new_array = []
+  i = 0 
+  while i < array.length
+  new_array.push(array[i]*2)
+  i += 1
+end
+new_array
 end 
 
 def map_to_square(array)
