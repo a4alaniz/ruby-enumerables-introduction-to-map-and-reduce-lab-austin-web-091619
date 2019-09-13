@@ -9,7 +9,7 @@ new_array
 end
 
 def map_to_no_change(dune)
-  dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
+  #dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
   dune.map{|n| n}
 end  
 
