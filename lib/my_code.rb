@@ -60,7 +60,7 @@ end
 #   source_array.reduce(100) {|sum, starting_point| sum + starting_point}
 # end
   
-def reduce_to_all_true(source_array) 
+def reduce_to_all_true(array) 
   #source_array.reduce { |beTru, beFalse| beTru && beFalse}
   i = 0 
   while i < array.length
@@ -70,7 +70,7 @@ def reduce_to_all_true(source_array)
  return true
 end
 
-def reduce_to_any_true(source_array) 
+def reduce_to_any_true(array) 
   #source_array.reduce { |beTru, beFalse| beTru || beFalse}
   i = 0 
   while i < array.length
