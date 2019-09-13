@@ -48,7 +48,7 @@ def reduce_to_total(source_array, starting_point=0)
   # source_array.reduce{|source_array| sum += source_array}
   total = starting_point
   i = 0 
-  while i < array.length
+  while i < array.length do
   total += array[i]
   i += 1
 end
