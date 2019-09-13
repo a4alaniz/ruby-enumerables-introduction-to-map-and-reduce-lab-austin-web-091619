@@ -62,10 +62,9 @@ end
   
 def reduce_to_all_true(source_array) 
   #source_array.reduce { |beTru, beFalse| beTru && beFalse}
-  
   i = 0 
   while i < array.length
-    
+   return false if array[i] == false  
     i += 1
   end
 
