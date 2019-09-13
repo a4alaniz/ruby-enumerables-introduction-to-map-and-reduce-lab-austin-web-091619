@@ -1,6 +1,11 @@
 def map_to_negativize(array) 
-  array = [1, 2, 3, -9]
-  array.map{|n| n * -1}
+  new_array = []
+  i = 0 
+  while i < array.length
+  array[i]*-1
+  i += 1
+end
+return new_array.push
 end
 
 def map_to_no_change(dune)
